@@ -2,10 +2,11 @@
   "main": {
     "name":"Prit Patel",
     "occupation":"Software Developer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":", graduated in December 2020. Currently, I am looking for full time job opportunities as a software developer or full stack developer.",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"If you think I'd be a great fit for your team and have a project for me. Please give me an email me.",
+    "warning":"Warning: Contact form is not working yet. Please contact me using email.",
     "email": "patelp0712@gmail.com",
     "phone": "662-985-8120",
     "address":{
@@ -15,47 +16,27 @@
       "zip": "01886"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/pritpatel307",
         "className":"fa fa-twitter"
       },
       {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/prit8810/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com/tbakerx",
+        "url":"https://github.com/pprit007/",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"This are the technologies which really won me over.",
     "education":[
       {
         "school":"University of Massachussetts-Dartmouth",
@@ -74,24 +55,24 @@
       {
         "company":"Atmiya Developers",
         "title":"Software Developer",
-        "years":"June 2017 - November 2018",
-        "description":"Oversaw all phases of product development cycle.- Programming languages: JAVA, HTML, CSS, JavaScript, SQL, MySQL, Communication protocol: TCP/IP - Effectively designed, analyzed, and implemented client/server program.- Enhanced product performance by feature addition and defect remediation to provide highest level of quality. - Developed, maintained, and supported host server-side code, enabling Atmiya and client application to access services. - Integrated IR sensor with software and stored the collected data to MySQL database. - Performed unit, regression and functional testing on all code and fixed all problems during testing and validated results. - Provided debugging information to developers by verifying code correctness prior to release."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "years":"March 2018 - November 2018",
+        "description":"Oversaw all phases of product development cycle.",
+        "point0":"Programming languages: JAVA, HTML, CSS, JavaScript, SQL, MySQL, Communication protocol: TCP/IP - Effectively designed, analyzed, and implemented client/server program.",
+        "point1":"Enhanced product performance by feature addition and defect remediation to provide highest level of quality.",
+        "point2":"Developed, maintained, and supported host server-side code, enabling Atmiya and client application to access services.",
+        "point3":"Integrated IR sensor with software and stored the collected data to MySQL database.",
+        "point4":"Performed unit, regression and functional testing on all code and fixed all problems during testing and validated results.",
+        "point5":"Provided debugging information to developers by verifying code correctness prior to release."
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"JAVA",
+        "level":"80%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"MySQL",
+        "level":"80%"
       },
       {
         "name":"ReactJs",
@@ -106,58 +87,56 @@
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"C++",
+        "level":"70%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"PHP",
+        "level":"60%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"World Suicide Rate",
+        "category":"My Data Visulization project",
+        "image":"world-suicide-rate.png",
+        "url":"https://pprit007.github.io/World_Suicide_Rate/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Website for Physician",
+        "category":"Website I developed for a physician",
+        "image":"website for physician.png",
+        "url":"https://jolly-montalcini-64ede9.netlify.app/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Facial Emotion Recognition",
+        "category":"This was my final year project for my Masters",
+        "image":"github-project.jpeg",
+        "url":"https://github.com/pprit007/Facial-Emotion-Recognition"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"SQL Query Evaluator",
+        "category":"Developer SQL Query Engine which adhere TPCH benchmark.",
+        "image":"github-project.jpeg",
+        "url":"https://github.com/pprit007/SQL-Query-Evaluator"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "title":"Cataract Detection",
+        "category":"Data Mining Project",
+        "image":"github-project.jpeg",
+        "url":"https://github.com/pprit007/Cataract_Detection"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "title":"Electronic Health Records",
+        "category":"Bachelor's Final Year Project",
+        "image":"github-project.jpeg",
+        "url":"https://github.com/pprit007/Electronic_Health_Record"
       }
     ]
   }

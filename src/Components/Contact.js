@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Contact extends Component {
   render() {
-
+  
     if(this.props.data){
       var name = this.props.data.name;
       var street = this.props.data.address.street;
@@ -12,7 +12,9 @@ class Contact extends Component {
       var phone= this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
+      var warning1=this.props.data.warning;
     }
+    
 
     return (
       <section id="contact">
@@ -28,6 +30,12 @@ class Contact extends Component {
             <div className="ten columns">
 
                   <p className="lead">{message}</p>
+
+            </div>
+
+            <div className="ten columns">
+
+                  <p className="warning">{warning1}</p>
 
             </div>
 
@@ -83,31 +91,11 @@ class Contact extends Component {
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   <span>{phone}</span><br/>
+                     <a href="mailto:patelp0712@gmail.com"><span>{email}</span></a>
 					   </p>
 				   </div>
 
-               <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-		         </div>
             </aside>
       </div>
    </section>

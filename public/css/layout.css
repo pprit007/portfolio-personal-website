@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/wal.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -54,12 +54,15 @@ header .banner {
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
+   background-color: rgba(0,0,0,0.6);
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
+   padding-top: 30px;
+   padding-bottom: 30px;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -69,7 +72,7 @@ header .banner-text h3 {
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -179,7 +182,10 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
+
+
+
 
 
 /* ------------------------------------------------------------------ */
@@ -187,7 +193,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #261b1d;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -281,9 +287,35 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+#resume .points li{
+   list-style: square;
+}
+
+
+
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+#skills1 {
+   background: #fff;
+   padding-top: 50px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#skills1 a, #skills1 a:visited  { color: #11ABB0; }
+#skills1 a:hover, #skills1 a:focus { color: #313131; }
+
+#skills1 h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills1 h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
 
 .bars {
 	width: 95%;
@@ -726,7 +758,7 @@ call-to-action .button {
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; backface-visibility:visible;}
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
@@ -834,15 +866,18 @@ call-to-action .button {
 }
 #contact .header-col { padding-top: 6px; }
 
-
+#contact p.warning {
+   font: 18px/36px 'opensans-light', sans-serif;
+   color: red;
+}
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
-	display: inline-block;
-	float: left;
+	display:flex;
+	float:left;
    width: 26%;
 }
 #contact input,
@@ -855,7 +890,7 @@ call-to-action .button {
 	border: 0;
 	outline: none;
    font-size: 15px;
-   line-height: 24px;
+   line-height: 10px;
    width: 65%;
 }
 #contact input:focus,
@@ -946,6 +981,7 @@ footer a:hover, footer a:focus { color: #fff; }
 footer .copyright {
     margin: 0;
     padding: 0;
+    color: white;
  }
 footer .copyright li {
     display: inline-block;
