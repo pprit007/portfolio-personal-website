@@ -10,10 +10,10 @@
     "email": "patelp0712@gmail.com",
     "phone": "662-985-8120",
     "address":{
-      "street":"3 Christy ln",
+      
       "city":"Westford",
-      "state":"MA",
-      "zip": "01886"
+      "state":"MA"
+      
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"",

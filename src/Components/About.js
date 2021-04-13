@@ -31,10 +31,9 @@ class About extends Component {
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
+						   <span>
+						         {city}, {state} {zip}
                    </span><br />
-						   <span>{phone}</span><br />
                      <a href="mailto:patelp0712@gmail.com"><span>{email}</span></a>
 					   </p>
                </div>
